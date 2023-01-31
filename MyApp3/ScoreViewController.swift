@@ -15,10 +15,10 @@ class ScoreViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if correct == 5 {
+        if correct == 10 {
             scoreLabel.text = "全問正解！"
         } else {
-            scoreLabel.text = "\(correct)問正解！"
+            scoreLabel.text = "10問中\(correct)問正解！"
         }
 
         // Do any additional setup after loading the view.

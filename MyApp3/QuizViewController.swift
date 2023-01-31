@@ -12,6 +12,8 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var quizTextView: UITextView!
     @IBOutlet weak var answerBotton1: UIButton!
     @IBOutlet weak var answerBotton2: UIButton!
+    @IBOutlet weak var answerBotton3: UIButton!
+    @IBOutlet weak var answerBotton4: UIButton!
     @IBOutlet weak var judgeImageView: UIImageView!
     
     var csvArray: [String] = []
@@ -31,6 +33,8 @@ class QuizViewController: UIViewController {
         quizTextView.text = quizArray[0]
         answerBotton1.setTitle(quizArray[2], for: .normal)
         answerBotton2.setTitle(quizArray[3], for: .normal)
+        answerBotton3.setTitle(quizArray[4], for: .normal)
+        answerBotton4.setTitle(quizArray[5], for: .normal)
         
         // Do any additional setup after loading the view.
     }
@@ -53,10 +57,14 @@ class QuizViewController: UIViewController {
             judgeImageView.isHidden = false
             answerBotton1.isEnabled = false
             answerBotton2.isEnabled = false
+            answerBotton3.isEnabled = false
+            answerBotton4.isEnabled = false
             DispatchQueue.main.asyncAfter(deadline: .now () + 0.5) {
                 self.judgeImageView.isHidden = true
                 self.answerBotton1.isEnabled = true
                 self.answerBotton2.isEnabled = true
+                self.answerBotton3.isEnabled = true
+                self.answerBotton4.isEnabled = true
                 self.nextQuiz()
             }
         }
@@ -69,6 +77,8 @@ class QuizViewController: UIViewController {
             quizTextView.text = quizArray[0]
             answerBotton1.setTitle(quizArray[2], for: .normal)
             answerBotton2.setTitle(quizArray[3], for: .normal)
+            answerBotton3.setTitle(quizArray[4], for: .normal)
+            answerBotton4.setTitle(quizArray[5], for: .normal)
         } else {
             performSegue(withIdentifier: "toScoreVC", sender: nil)
         }
