@@ -20,9 +20,9 @@
 		35E801D926815B2700ABC35C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E801D726815B2700ABC35C /* LaunchScreen.storyboard */; };
 		35E801E426815B2700ABC35C /* MyApp3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E801E326815B2700ABC35C /* MyApp3Tests.swift */; };
 		35E801EF26815B2700ABC35C /* MyApp3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E801EE26815B2700ABC35C /* MyApp3UITests.swift */; };
-		ACADB7462989313000C9248D /* dr055.png in Resources */ = {isa = PBXBuildFile; fileRef = ACADB7452989313000C9248D /* dr055.png */; };
-		ACADB748298932A700C9248D /* fo015_1.png in Resources */ = {isa = PBXBuildFile; fileRef = ACADB747298932A700C9248D /* fo015_1.png */; };
-		ACADB74A298932D700C9248D /* 4304.png in Resources */ = {isa = PBXBuildFile; fileRef = ACADB749298932D700C9248D /* 4304.png */; };
+		AC06AF4F298A810E00F4EB8A /* fo015_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AC06AF4C298A810E00F4EB8A /* fo015_1.png */; };
+		AC06AF50298A810E00F4EB8A /* 4304.png in Resources */ = {isa = PBXBuildFile; fileRef = AC06AF4D298A810E00F4EB8A /* 4304.png */; };
+		AC06AF51298A810E00F4EB8A /* dr055.png in Resources */ = {isa = PBXBuildFile; fileRef = AC06AF4E298A810E00F4EB8A /* dr055.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +62,9 @@
 		35E801EA26815B2700ABC35C /* MyApp3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyApp3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E801EE26815B2700ABC35C /* MyApp3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp3UITests.swift; sourceTree = "<group>"; };
 		35E801F026815B2700ABC35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACADB7452989313000C9248D /* dr055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dr055.png; path = "../../../../Desktop/Photos-001/dr055.png"; sourceTree = "<group>"; };
-		ACADB747298932A700C9248D /* fo015_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fo015_1.png; path = "../../../../Desktop/Photos-001/fo015_1.png"; sourceTree = "<group>"; };
-		ACADB749298932D700C9248D /* 4304.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4304.png; path = "../../../../Desktop/Photos-001/4304.png"; sourceTree = "<group>"; };
+		AC06AF4C298A810E00F4EB8A /* fo015_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fo015_1.png; path = ../../../../Desktop/fo015_1.png; sourceTree = "<group>"; };
+		AC06AF4D298A810E00F4EB8A /* 4304.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4304.png; path = ../../../../Desktop/4304.png; sourceTree = "<group>"; };
+		AC06AF4E298A810E00F4EB8A /* dr055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dr055.png; path = ../../../../Desktop/dr055.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +96,9 @@
 			isa = PBXGroup;
 			children = (
 				3567E7082694956800BCD9FD /* correct.png */,
-				ACADB749298932D700C9248D /* 4304.png */,
-				ACADB7452989313000C9248D /* dr055.png */,
-				ACADB747298932A700C9248D /* fo015_1.png */,
+				AC06AF4D298A810E00F4EB8A /* 4304.png */,
+				AC06AF4E298A810E00F4EB8A /* dr055.png */,
+				AC06AF4C298A810E00F4EB8A /* fo015_1.png */,
 				3567E7092694956800BCD9FD /* incorrect.png */,
 			);
 			path = image;
@@ -265,10 +265,10 @@
 			files = (
 				3567E70A2694956800BCD9FD /* correct.png in Resources */,
 				35E50B722698710C0067B4B9 /* Assets.xcassets in Resources */,
-				ACADB7462989313000C9248D /* dr055.png in Resources */,
+				AC06AF4F298A810E00F4EB8A /* fo015_1.png in Resources */,
+				AC06AF51298A810E00F4EB8A /* dr055.png in Resources */,
 				3567E70B2694956800BCD9FD /* incorrect.png in Resources */,
-				ACADB74A298932D700C9248D /* 4304.png in Resources */,
-				ACADB748298932A700C9248D /* fo015_1.png in Resources */,
+				AC06AF50298A810E00F4EB8A /* 4304.png in Resources */,
 				35E801D926815B2700ABC35C /* LaunchScreen.storyboard in Resources */,
 				35E801D426815B2000ABC35C /* Main.storyboard in Resources */,
 				3505F8CA2693386900E219EA /* quiz.csv in Resources */,
