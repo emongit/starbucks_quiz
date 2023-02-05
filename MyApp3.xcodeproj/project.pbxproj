@@ -20,9 +20,9 @@
 		35E801D926815B2700ABC35C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E801D726815B2700ABC35C /* LaunchScreen.storyboard */; };
 		35E801E426815B2700ABC35C /* MyApp3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E801E326815B2700ABC35C /* MyApp3Tests.swift */; };
 		35E801EF26815B2700ABC35C /* MyApp3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E801EE26815B2700ABC35C /* MyApp3UITests.swift */; };
+		AC512C8A298F3F5A00C617DE /* 4304.png in Resources */ = {isa = PBXBuildFile; fileRef = AC512C89298F3F5A00C617DE /* 4304.png */; };
 		ACDBB6EE298E755900304BDF /* dr055.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDBB6EB298E755800304BDF /* dr055.png */; };
 		ACDBB6EF298E755900304BDF /* fo015_1.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDBB6EC298E755900304BDF /* fo015_1.png */; };
-		ACDBB6F0298E755900304BDF /* 4304.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDBB6ED298E755900304BDF /* 4304.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +62,9 @@
 		35E801EA26815B2700ABC35C /* MyApp3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyApp3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E801EE26815B2700ABC35C /* MyApp3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp3UITests.swift; sourceTree = "<group>"; };
 		35E801F026815B2700ABC35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACDBB6EB298E755800304BDF /* dr055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dr055.png; sourceTree = SOURCE_ROOT; };
-		ACDBB6EC298E755900304BDF /* fo015_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fo015_1.png; sourceTree = SOURCE_ROOT; };
-		ACDBB6ED298E755900304BDF /* 4304.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4304.png; sourceTree = SOURCE_ROOT; };
+		AC512C89298F3F5A00C617DE /* 4304.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4304.png; sourceTree = "<group>"; };
+		ACDBB6EB298E755800304BDF /* dr055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dr055.png; path = MyApp3/image/dr055.png; sourceTree = SOURCE_ROOT; };
+		ACDBB6EC298E755900304BDF /* fo015_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fo015_1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +96,9 @@
 			isa = PBXGroup;
 			children = (
 				3567E7082694956800BCD9FD /* correct.png */,
-				ACDBB6ED298E755900304BDF /* 4304.png */,
 				ACDBB6EB298E755800304BDF /* dr055.png */,
 				ACDBB6EC298E755900304BDF /* fo015_1.png */,
+				AC512C89298F3F5A00C617DE /* 4304.png */,
 				3567E7092694956800BCD9FD /* incorrect.png */,
 			);
 			path = image;
@@ -263,11 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC512C8A298F3F5A00C617DE /* 4304.png in Resources */,
 				ACDBB6EF298E755900304BDF /* fo015_1.png in Resources */,
 				3567E70A2694956800BCD9FD /* correct.png in Resources */,
 				35E50B722698710C0067B4B9 /* Assets.xcassets in Resources */,
 				3567E70B2694956800BCD9FD /* incorrect.png in Resources */,
-				ACDBB6F0298E755900304BDF /* 4304.png in Resources */,
 				ACDBB6EE298E755900304BDF /* dr055.png in Resources */,
 				35E801D926815B2700ABC35C /* LaunchScreen.storyboard in Resources */,
 				35E801D426815B2000ABC35C /* Main.storyboard in Resources */,
